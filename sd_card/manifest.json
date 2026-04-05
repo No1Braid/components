@@ -2,8 +2,9 @@
   "domain": "sd_card",
   "name": "SD Card Component",
   "version": "1.0",
-  "documentation": "https://github.com/No1Braid/sd_card",
+  "documentation": "https://github.com/No1Braid/components",
   "requirements": [],
   "dependencies": [],
-  "codeowners": ["@No1Braid"]
+  "codeowners": ["@No1Braid"],
+  "load_schema": true
 }
