@@ -10,6 +10,7 @@ class SDCardComponent : public Component {
   void setup() override;
   void loop() override;
 
+  // These go RIGHT HERE:
   void set_cs_pin(int pin) { cs_pin_ = pin; }
   void set_mosi_pin(int pin) { mosi_pin_ = pin; }
   void set_miso_pin(int pin) { miso_pin_ = pin; }
